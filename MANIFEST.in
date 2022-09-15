@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tarozi_syncer *.css
+recursive-include tarozi_syncer *.csv
+recursive-include tarozi_syncer *.html
+recursive-include tarozi_syncer *.ico
+recursive-include tarozi_syncer *.js
+recursive-include tarozi_syncer *.json
+recursive-include tarozi_syncer *.md
+recursive-include tarozi_syncer *.png
+recursive-include tarozi_syncer *.py
+recursive-include tarozi_syncer *.svg
+recursive-include tarozi_syncer *.txt
+recursive-exclude tarozi_syncer *.pyc
