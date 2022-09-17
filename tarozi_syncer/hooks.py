@@ -113,23 +113,23 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"tarozi_syncer.tasks.all"
-# 	],
-# 	"daily": [
-# 		"tarozi_syncer.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"tarozi_syncer.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"tarozi_syncer.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"tarozi_syncer.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	# "all": [
+	# 	"tarozi_syncer.tasks.all"
+	# ],
+	# "daily": [
+	# 	"tarozi_syncer.tasks.daily"
+	# ],
+	"hourly": [
+		"tarozi_syncer.tasks.hourly"
+	],
+	# "weekly": [
+	# 	"tarozi_syncer.tasks.weekly"
+	# ],
+	# "monthly": [
+	# 	"tarozi_syncer.tasks.monthly"
+	# ],
+}
 
 # Testing
 # -------
